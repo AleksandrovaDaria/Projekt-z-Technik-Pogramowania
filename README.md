@@ -6,8 +6,8 @@ Jest to symulacja do typowego logowania. Program polega na szyfrowaniu podanego 
 1. [Wprowadzenie(cel projektu)](#Wprowadzenie)
 2. [Technologie](#Technologie)
 3. [Uruchomienie](#Uruchomienie)
-4. [Przykład użycia](#Przykład użycia)
-5. [Status projektu](#Status projektu)
+4. [Przykład użycia](#Przykład-użycia)
+5. [Status projektu](#Status-projektu)
 ## Wprowadzenie
 
 ## Technologie
