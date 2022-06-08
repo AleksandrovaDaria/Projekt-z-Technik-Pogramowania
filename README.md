@@ -15,7 +15,8 @@ Cel jest osiągany za pomocą programu, który szyfrufie podane przez użytkowni
 ## Technologie
 Projekt jest wykonany w języku programowania C++, z wykorzystaniem standardowej bibloiteki iostream.
 ## Uruchomienie
-
+Żeby uruchomić projekt wystarczy skopiować podany niżej kod, skompilować i uruchomić go w aplikacji konsolowej np.Visual Studio.
 ## Przykład użycia
 
 ## Status projektu
+Projekt wykonany bez żadnych bagów
