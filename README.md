@@ -9,9 +9,11 @@ Jest to symulacja do typowego logowania. Program polega na szyfrowaniu podanego 
 4. [Przykład użycia](#Przykład-użycia)
 5. [Status projektu](#Status-projektu)
 ## Wprowadzenie
-
+Celem projektu jest
+Cel jest osiągany za pomocą programu, który szyfrufie podane przez użytkownika hasło.
+[Podział programu na moduły] ("C:\Users\Stayinnhotel\Desktop\moduły.png")
 ## Technologie
-
+Projekt jest wykonany w języku programowania C++, z wykorzystaniem standardowej bibloiteki iostream.
 ## Uruchomienie
 
 ## Przykład użycia
