@@ -15,6 +15,7 @@ Cel jest osiągany za pomocą programu, który szyfrufie podane przez użytkowni
 
 ## Technologie
 Projekt jest wykonany w języku programowania C++, z wykorzystaniem standardowej bibloiteki iostream.
+
 **Podział na moduły**
 
 <img width="1462" alt="moduły" src="https://user-images.githubusercontent.com/106164543/172897243-c9cc3be4-4740-4bb9-a8c2-d828d11f8ec7.png">
@@ -24,6 +25,8 @@ Projekt jest wykonany w języku programowania C++, z wykorzystaniem standardowej
 
 ## Uruchomienie
 Żeby uruchomić projekt wystarczy skopiować podany niżej kod, skompilować i uruchomić go w aplikacji konsolowej np.Visual Studio.
+>blbl
+>bjb,
 ## Przykład użycia
 
 ## Status projektu
