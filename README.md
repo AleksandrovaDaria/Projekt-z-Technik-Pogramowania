@@ -13,7 +13,7 @@ Celem projektu jest
 
 Cel jest osiągany za pomocą programu, który szyfrufie podane przez użytkownika hasło.
 
-[Podział programu na moduły]("C:\Users\Stayinnhotel\Desktop\moduły.png")
+[Podział programu na moduły]("C:\Users\Daria\Downloads\"moduły.png")
 ## Technologie
 Projekt jest wykonany w języku programowania C++, z wykorzystaniem standardowej bibloiteki iostream.
 ## Uruchomienie
