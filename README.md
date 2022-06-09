@@ -13,7 +13,7 @@ Celem projektu jest
 
 Cel jest osiągany za pomocą programu, który szyfrufie podane przez użytkownika hasło.
 
-![Podział programu na moduły](https://drive.google.com/file/d/1Tha1xJMQTRkp1gc8aFZhEHtA-bh8-Z4s)
+![Podział programu na moduły](https://drive.google.com/file/d/1Tha1xJMQTRkp1gc8aFZhEHtA-bh8-Z4s/view?usp=sharing)
 ## Technologie
 Projekt jest wykonany w języku programowania C++, z wykorzystaniem standardowej bibloiteki iostream.
 ## Uruchomienie
