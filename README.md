@@ -25,9 +25,73 @@ Projekt jest wykonany w języku programowania C++, z wykorzystaniem standardowej
 
 ## Uruchomienie
 Żeby uruchomić projekt wystarczy skopiować podany niżej kod, skompilować i uruchomić go w aplikacji konsolowej np.Visual Studio.
->blbl
->bjb,
+``` cpp
+#include <iostream>
+#include <string>
+
+using namespace std;
+string haslo_poprawne, haslo_sprawdzane;
+int poprawne_szyfrowane[7], sprawdzane_szyfrowane[7];
+int
+main ()
+{
+  cout << "Wprowadz haslo do logowania." << endl <<
+    " Haslo musi skladac sie z 8 cyfr, nie zamierajac zadnych liter oraz znakow specjalnych, w tym spacje "
+    << endl;
+powtorz:
+  cin >> haslo_poprawne;
+  if (haslo_poprawne.length () != 8)
+    {
+      cout << "Haslo musi zawierac 8 cyfr.Sproboj ponownie!" << endl;
+      goto powtorz;
+    }
+  for (int i = 0; i < 8; i++)
+    {
+      if (((int) haslo_poprawne[i] < 48) || ((int) haslo_poprawne[i] > 57))
+	{
+	  cout << "Haslo musi zawierac tylko cyfry.Sproboj ponownie!" <<
+	    endl;
+	  goto powtorz;
+	}
+      poprawne_szyfrowane[i] = haslo_poprawne[i] + i;
+    }
+
+  cout << "Powtorz haslo" << endl;
+  int j = 0;
+powtorz1:
+  cin >> haslo_sprawdzane;
+  if (haslo_sprawdzane.length () != 8)
+    {
+      cout << "Haslo musi zawierac 8 cyfr.Sproboj ponownie!" << endl;
+      goto powtorz1;
+    }
+  for (int i = 0; i < 8; i++)
+    {
+      sprawdzane_szyfrowane[i] = haslo_sprawdzane[i] + i;
+    }
+  for (int i = 0; i < 8; i++)
+    {
+      if ((sprawdzane_szyfrowane[i] != poprawne_szyfrowane[i]) & (j < 3))
+	{
+	  j = j + 1;
+	  cout << "Weryfikacja nie udala sie. Sproboj ponownie"<<endl;
+	  goto powtorz1;
+	}
+    }
+  if (j == 3)
+    {
+      cout << "Blad weryfikacji. Logowanie nie powiodlo sie";
+    }
+  if (j == 0)
+    {
+      cout << "Weryfikacja udala sie";
+    }
+
+}
+```
 ## Przykład użycia
+![image](https://user-images.githubusercontent.com/106164543/173208000-a80c8bcb-ff2c-4fa5-8e19-61f86cd044ca.png)
+![image](https://user-images.githubusercontent.com/106164543/173208045-89f8be93-418e-4495-961c-f0258983d1a7.png)
 
 ## Status projektu
-Projekt wykonany bez żadnych bagów
+Projekt wykonany bez żadnych zastrzeń
