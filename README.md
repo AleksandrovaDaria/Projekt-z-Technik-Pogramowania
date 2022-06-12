@@ -20,10 +20,6 @@ Projekt jest wykonany w języku programowania C++, z wykorzystaniem standardowej
 
 <img width="1462" alt="moduły" src="https://user-images.githubusercontent.com/106164543/172897243-c9cc3be4-4740-4bb9-a8c2-d828d11f8ec7.png">
 
-**Schemat błokowy**
-
-<img width="803" alt="Креслення 1" src="https://user-images.githubusercontent.com/106164543/173221848-9dd078b2-2903-47d3-9767-7a6081568b5c.png">
-
 ## Uruchomienie
 Żeby uruchomić projekt wystarczy skopiować podany niżej kod, skompilować i uruchomić go w zintegrowanym środowisku programistycznym np.[Visual Studio](https://visualstudio.microsoft.com/pl/downloads/).
 ``` cpp
