@@ -27,6 +27,38 @@ Projekt jest wykonany w języku programowania C++, z wykorzystaniem standardowej
 ## Uruchomienie
 Żeby uruchomić projekt wystarczy skopiować podany niżej kod, skompilować i uruchomić go w zintegrowanym środowisku programistycznym np.[Visual Studio](https://visualstudio.microsoft.com/pl/downloads/).
 ``` cpp
+/********************************************************
+ * /*Nazwa: Projekt # 1 - Szyfrowanie
+|
+| Autor: Daria Aleksandrova
+| Język: C++
+
+| Termin: 15.04.2022-12.06.202, początek zajęć
+|
+|
+| Opis: Jest to symulacja do typowego logowania. Program polega na szyfrowaniu podanego przez użytkownika hasła oraz 
+|  na sprawdzeniu czy powtórnie podane hasło jest prawdziwe. Po raz pierwszy prosimy użytkownika o wprowadzeniu 8 cyfrowego hasła, 
+|  po raz drugi występujemy z komunikatem "Powtórz hasło".
+|
+| Dane wejściowe: 8 cyfrowy ciąg liczb, podany w jednym wierszu z klawiatury.
+|
+| Dane wyjściowe: Moliwe są kilka wariantów wyświetlanej w jednym wierszu odpowiedzi:
+|  "Hasło musi zawierać 8 cyfr", jeżeli użytkownik wprowadził mniej/więcej niż 8 cyfr, litery lub inne znaki;
+|  "Weryfikacja udała się", jeżeli wprowadzone dane są prawidłowe;
+|  "Weryfikacja nie udała się. Spróbuj ponownie" jeżeli wprowadzone hasła nie zgadzają się;
+|  "Błąd weryfikacji. Logowanie nie powiodło się", jeżeli za 3 razem wprowadzone hasła nie zgadzają się.
+|
+|
+| Algorytm: hasło jest pobierane z klawiatury. Poprawność hasła sprawdza się za pomocą 2 funkcji warunkowych "if". 
+Szyfrowanie odbywa się przy pomocy zagnieżdzionej pętli "for". Każda cyfra tekstu jawnego (niezaszyfrowanego) zastępowana jest inną, oddaloną od niej o "i" - licznik pętli. 
+Analogicznie jest z hasłem do sprawdzenia. Porównanie haseł odbywa się z użyciem pętli "for" oraz 3 funkcji warunkowych "if"
+|
+| Wymagane funkcje nieuwzględnione: program jest zgodny ze wszystkimi
+| wymagania określone w zadaniu programowym i wszystkie
+| wymagane funkcje są uwzględnione.
+|
+| Znane błędy: W tym programie nie ma żadnych znanych błędów.
+**********************************************************************/
 #include <iostream>
 #include <string>
 
