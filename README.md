@@ -14,7 +14,7 @@ Celem projektu jest zapoznanie z technikami programowania; nabycie umiejętnośc
 Cel jest osiągany za pomocą programu, który szyfrufie podane przez użytkownika hasło.
 
 ## Technologie
-Projekt jest wykonany w języku programowania C++, z wykorzystaniem standardowej bibloiteki iostream.
+Projekt jest wykonany w języku programowania C++, z wykorzystaniem standardowej bibloitek iostream oraz string.
 
 **Podział na moduły**
 
@@ -25,7 +25,7 @@ Projekt jest wykonany w języku programowania C++, z wykorzystaniem standardowej
 <img width="803" alt="Креслення 1" src="https://user-images.githubusercontent.com/106164543/173221848-9dd078b2-2903-47d3-9767-7a6081568b5c.png">
 
 ## Uruchomienie
-Żeby uruchomić projekt wystarczy skopiować podany niżej kod, skompilować i uruchomić go w aplikacji konsolowej np.Visual Studio.
+Żeby uruchomić projekt wystarczy skopiować podany niżej kod, skompilować i uruchomić go w zintegrowanym środowisku programistycznym np.[Visual Studio](https://visualstudio.microsoft.com/pl/downloads/).
 ``` cpp
 #include <iostream>
 #include <string>
