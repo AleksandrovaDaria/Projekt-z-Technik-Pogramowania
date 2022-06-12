@@ -95,4 +95,4 @@ powtorz1:
 ![image](https://user-images.githubusercontent.com/106164543/173208045-89f8be93-418e-4495-961c-f0258983d1a7.png)
 
 ## Status projektu
-Projekt wykonany bez żadnych zastrzeń
+W czasie testowania nie udało się znaleść żadnych zastrzeń.
