@@ -33,7 +33,7 @@ Projekt jest wykonany w języku programowania C++, z wykorzystaniem standardowej
 | Autor: Daria Aleksandrova
 | Język: C++
 
-| Termin: 15.04.2022-12.06.202, początek zajęć
+| Termin: 15.04.2022-12.06.2022
 |
 |
 | Opis: Jest to symulacja do typowego logowania. Program polega na szyfrowaniu podanego przez użytkownika hasła oraz 
